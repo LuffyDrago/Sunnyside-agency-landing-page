@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+:root {
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate: hsl(168, 34%, 41%);
+    /* Neutral */
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,8 +21,90 @@
 }
 
 body {
-    background-color: aqua;
+    font-family: "Barlow", sans-serif;
 }
+
+header {
+    background: url(/images/desktop/image-header.jpg)no-repeat 50%/cover;
+    /* height: 512px; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fraunces", sans-serif;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.banner {
+    height: 512px;
+    text-align: center;
+}
+
+p {
+    /* line-height: 1.6; */
+    font-size: 18px;
+    color: var(--very-dark-grayish-blue);
+}
+
+.creati {
+    opacity: 1;
+    color: rgba(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: .1em;
+    font-family: "Fraunces", sans-serif;
+}
+
+.title {
+    display: flex;
+}
+
+.detabrand {
+    padding: 5rem;
+    width: 50%;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.para {
+    margin-bottom: 1.25rem;
+    color: var(--very-dark-grayish-blue);
+}
+
+.learnmore {
+    margin: 0;
+    border-bottom: 6px solid var(--Yellow);
+    color: var(--very-dark-desaturated-blue);
+    text-transform: uppercase;
+    font-family: "Fraunces", sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none;
+    font-size: 100%;
+}
+
+.picture {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* img {} */
 
 .attribution {
     font-size: 11px;
