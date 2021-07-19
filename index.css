@@ -70,11 +70,12 @@ p {
 
 .title {
     display: flex;
+    width: 100%;
 }
 
 .detabrand {
     padding: 5rem;
-    width: 50%;
+    flex: 50%;
     text-align: left;
     line-height: 1.6;
     font-size: 18px;
@@ -98,13 +99,15 @@ p {
 }
 
 .picture {
-    width: 50%;
+    flex: 50%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-
-/* img {} */
+img {
+    max-width: 100%;
+}
 
 .attribution {
     font-size: 11px;
