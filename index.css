@@ -44,7 +44,7 @@ h4,
 h5,
 h6 {
     font-family: "Fraunces", sans-serif;
-    color: var(--very-dark-desaturated-blue);
+    color: var(--Very-dark-desaturated-blue);
 }
 
 .banner {
@@ -55,7 +55,7 @@ h6 {
 p {
     /* line-height: 1.6; */
     font-size: 18px;
-    color: var(--very-dark-grayish-blue);
+    color: var( --Very-dark-grayish-blue);
 }
 
 .creati {
@@ -97,13 +97,13 @@ p {
 
 .para {
     margin-bottom: 1.25rem;
-    color: var(--very-dark-grayish-blue);
+    color: var( --Very-dark-grayish-blue);
 }
 
 .learnmore {
     margin: 0;
     border-bottom: 6px solid var(--Yellow);
-    color: var(--very-dark-desaturated-blue);
+    color: var(--Very-dark-desaturated-blue);
     text-transform: uppercase;
     font-family: "Fraunces", sans-serif;
     cursor: pointer;
@@ -121,6 +121,66 @@ p {
 
 img {
     max-width: 100%;
+}
+
+.testimonials {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    width: 100%;
+}
+
+.testimonial-head {
+    text-align: center;
+    color: var( --Very-dark-grayish-blue);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
+
+.testi1 {
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.testimon-sector {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.circle {
+    width: 5rem;
+    border-radius: 50%;
+    /* margin-top: 1.35rem; */
+    margin-bottom: 1.25rem;
+    align-self: center;
+}
+
+.names {
+    margin-top: 1.25rem;
+}
+
+.flexow {
+    display: flex;
+}
+
+.picrowss {
+    width: 24.73%;
+    max-width: 100%;
+}
+
+.footer {
+    padding: 5rem;
+    background-color: #90d4c5;
+}
+
+.finisher-footer {
+    background-color: var(--Dark-moderate);
 }
 
 .attribution {
