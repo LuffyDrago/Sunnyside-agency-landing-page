@@ -177,10 +177,33 @@ img {
 .footer {
     padding: 5rem;
     background-color: #90d4c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.directions {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .finisher-footer {
-    background-color: var(--Dark-moderate);
+    background-color: var( --Dark-desaturated-cyan);
+    margin-left: 5rem;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    margin-top: 1.25rem;
 }
 
 .attribution {
