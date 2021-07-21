@@ -86,7 +86,7 @@ p {
 }
 
 .detgraph {
-    padding: 5rem;
+    /* padding: 5rem; */
     flex: 50%;
     line-height: 1.6;
     font-size: 18px;
