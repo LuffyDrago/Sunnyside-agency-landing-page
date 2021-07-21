@@ -124,7 +124,7 @@ img {
 }
 
 .testimonials {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
     display: flex;
     width: 100%;
@@ -233,5 +233,17 @@ img {
         display: flex;
         flex-wrap: wrap-reverse;
         max-width: 100%;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexows {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picrowss {
+        display: flex;
+        width: 50%;
     }
 }
