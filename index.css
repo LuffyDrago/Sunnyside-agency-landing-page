@@ -290,6 +290,10 @@ nav {
     padding: 0.75rem 0;
 }
 
+
+/* 
+MAKING THE NAVBAR RESPONSIVE IN DESKTOP ONLY WE USE MIN WIDTH-DESKTOP */
+
 @media screen and (min-width: 800px) {
     nav {
         background: transparent;
@@ -315,13 +319,26 @@ nav {
         display: flex;
     }
     .links a {
-        background: #fff;
+        background: transparent;
+        color: #fff;
         font-size: 1.1rem;
         text-transform: capitalize;
         letter-spacing: 0.25rem;
         display: block;
         /* transition: var(--transition); */
-        font-weight: bold;
-        padding: 0.75rem 0;
+        /* padding: 0.75rem 0; */
+        padding: 2rem;
     }
+}
+
+.links .buttoon {
+    margin: 1.25rem;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid var(--white);
+    padding: 10px;
+    border-radius: 20px;
+    letter-spacing: inherit;
+    text-transform: uppercase;
+    font-family: "Fraunces", sans-serif;
 }
