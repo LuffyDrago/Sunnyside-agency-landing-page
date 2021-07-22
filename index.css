@@ -213,8 +213,8 @@
     }
     
     .finisher-footer {
-        background-color: var( --Dark-desaturated-cyan);
         margin-left: 5rem;
+        width: 25%;
     }
     
     .socialmedia {
@@ -226,6 +226,7 @@
     .media {
         display: flex;
         margin-top: 1.25rem;
+        width: 5%;
     }
     
     .attribution {
@@ -276,7 +277,7 @@
             width: 25%;
         }
         .media {
-            width: 25%;
+            width: 5%;
         }
         .homepic {
             width: 2%;
