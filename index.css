@@ -187,13 +187,15 @@
         margin-top: 1.25rem;
     }
     
-    .flexow {
+    .flexows {
         display: flex;
+        width: 100%
     }
     
     .picrowss {
-        width: 24.73%;
-        max-width: 100%;
+        /* width: 24.73%;
+        max-width: 100%; */
+        width: calc(100vw/4);
     }
     
     .footer {
